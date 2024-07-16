@@ -106,7 +106,7 @@ The project consists of the following main components:
   - `window_size`: Size of the window for smoothing data.
 
 ## Output
-The main output of the project is a plot of the real-time torque data during the grasping process with impedance control. The plot is saved as a PNG file (`torque_data(Impedance Control).png`) and shows the torque values over time for each sensor.
+The main output of the project is a plot of the real-time torque data during the grasping process with impedance control and PID control. eg. The plot is saved as a PNG file (`torque_data(Impedance Control).png`) and shows the torque values over time for each sensor. In addition to this there are two simulation animations for torque control and position control respectively.
 
 ### Example Output
 ![Real-time Torque Data During Grasping with Impedance Control](torque_data(Impedance Control).png)
