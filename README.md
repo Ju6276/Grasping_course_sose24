@@ -1,9 +1,9 @@
 
-# Project README
+# Project_Group 5
 
 ## Project Overview
 This project is for Grasping_course_sose24 and involves simulating a robotic hand using the MuJoCo physics engine. The main goals are to control the robotic hand's joints to grasp an object using PID control and impedance control, lift the object to a specified height, and visualize the torque data during these processes.
-The robotic hand used for the grasping task in this project is the Wonik Allegro, developed extensively based on the model available at [Wonik Allegro GitHub Repository](https://github.com/google-deepmind/mujoco_menagerie). The grasping scenario is based on the Medium Wrap grasp of a cylindrical object as described in the paper available at [IEEE Xplore](https://ieeexplore.ieee.org/document/6822601). The developed .xml file will be introduced in detail later.
+The robotic hand used for the grasping task in this project is the Wonik Allegro, developed extensively based on the model available at [Wonik Allegro GitHub Repository](https://github.com/google-deepmind/mujoco_menagerie). The grasping scenario is based on the Medium Wrap grasp of a cylindrical object as described in the paper available at [IEEE Xplore](https://ieeexplore.ieee.org/document/6822601). The developed .xml file by us will be introduced in detail later.
 ## Requirements
 
 ### Installation
@@ -39,6 +39,10 @@ The project consists of the following main components:
    - Implements impedance control based on contact and sensor data.
    - Lifts an object to a target position.
 
+5. **Simulation animation (`Grasping_SimulationPID.py`)**
+   - Simulats animation of a gripping task using only the position controller was implemented as a comparison.
+   - Switch between different viewpoints during the simulation via keypad 1, 2, 3.
+   - Generates real-time torque during the gripping and lifting process
 ## Features
 
 ### PID Control
