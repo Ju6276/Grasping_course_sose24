@@ -2,8 +2,8 @@
 # Project README
 
 ## Project Overview
-This project involves simulating a robotic hand using the MuJoCo physics engine. The main goals are to control the robotic hand's joints to grasp an object using PID control and impedance control, lift the object to a specified height, and visualize the torque data during these processes.
-
+This project is for Grasping_course_sose24 and involves simulating a robotic hand using the MuJoCo physics engine. The main goals are to control the robotic hand's joints to grasp an object using PID control and impedance control, lift the object to a specified height, and visualize the torque data during these processes.
+The robotic hand used for the grasping task in this project is the Wonik Allegro, developed extensively based on the model available at [Wonik Allegro GitHub Repository](https://github.com/google-deepmind/mujoco_menagerie). The grasping scenario is based on the Medium Wrap grasp of a cylindrical object as described in the paper available at [IEEE Xplore](https://ieeexplore.ieee.org/document/6822601). The developed .xml file will be introduced in detail later.
 ## Requirements
 
 ### Installation
@@ -14,7 +14,7 @@ To set up and run the project, you need to install the following packages:
 
 You can install the required packages using the following commands:
 ```sh
-pip install mujoco-py numpy matplotlib
+pip install mujoco numpy matplotlib
 ```
 
 Additionally, you need to have MuJoCo properly installed on your system. Follow the [MuJoCo installation instructions](http://www.mujoco.org/book/install.html).
