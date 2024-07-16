@@ -4,6 +4,7 @@
 ## Project Overview
 This project is for Grasping_course_sose24 and involves simulating a robotic hand using the MuJoCo physics engine. The main goals are to control the robotic hand's joints to grasp an object using PID control and impedance control, lift the object to a specified height, and visualize the torque data during these processes.
 The robotic hand used for the grasping task in this project is the Wonik Allegro, developed extensively based on the model available at [Wonik Allegro GitHub Repository](https://github.com/google-deepmind/mujoco_menagerie). The grasping scenario is based on the Medium Wrap grasp of a cylindrical object as described in the paper available at [IEEE Xplore](https://ieeexplore.ieee.org/document/6822601). The developed .xml file by us will be introduced in detail later.
+You can watch the demo video [here](https://github.com/Ju6276/Grasping_course_sose24/issues/1).
 ## Requirements
 
 ### Installation
