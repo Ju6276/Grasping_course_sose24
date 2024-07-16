@@ -43,6 +43,12 @@ The project consists of the following main components:
    - Simulats animation of a gripping task using only the position controller was implemented as a comparison.
    - Switch between different viewpoints during the simulation via keypad 1, 2, 3.
    - Generates real-time torque during the gripping and lifting process
+   
+6. **wonik_allegro**
+   - Adjusts to use torque control instead of position control.
+   - Adds sensors to each joint section to obtain real-time moments.
+   - Adds x-, y-, and z-joints at the forearm of the hand to allow for arbitrary movement in the workspace.
+   - 
 ## Features
 
 ### PID Control
